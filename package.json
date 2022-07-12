@@ -1,0 +1,26 @@
+{
+    "private": true,
+    "author": "一灯 <choby@outlook.com>",
+    "scripts": {
+        "dev": "umi dev",
+        "build": "umi build",
+        "postinstall": "umi setup",
+        "setup": "umi setup",
+        "start": "npm run dev"
+    },
+    "dependencies": {
+        "antd": "^4.21.6",
+        "react-beautiful-dnd": "^13.1.0",
+        "styled-components": "^5.3.5",
+        "umi": "^4.0.6",
+        "uuid": "^8.3.2"
+    },
+    "devDependencies": {
+        "@types/react": "^18.0.0",
+        "@types/react-beautiful-dnd": "^13.1.2",
+        "@types/react-dom": "^18.0.0",
+        "@types/styled-components": "^5.1.25",
+        "@types/uuid": "^8.3.4",
+        "typescript": "^4.1.2"
+    }
+}
